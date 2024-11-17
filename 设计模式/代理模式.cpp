@@ -50,8 +50,7 @@ public:
 	}
 public:
 	// 其它功能
-	bool check_start() 
-	{
+	bool check_start() {
 		return start;
 	}
 
