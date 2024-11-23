@@ -62,8 +62,7 @@ public:
 	}
 };
 
-void test2() 
-{
+void test() {
 	Shape* rectangle = new Rectangle;
 	Shape* colorrectangle = new colorShapeDecorator(rectangle ,"red");
 	Shape* finalshape = new borderShapeDecorator(colorrectangle);
@@ -74,7 +73,7 @@ void test2()
 
 int main() 
 {
-	test2();
+	test();
 	return 0;
 }
 
