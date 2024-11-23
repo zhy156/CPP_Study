@@ -60,8 +60,7 @@ public:
 	}
 };
 
-void test() 
-{
+void test() {
 	// 使用代理进行请求
 	Subject* A_Subject = new Proxy;
 	A_Subject->request();
